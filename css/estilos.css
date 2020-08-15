@@ -1,0 +1,127 @@
+/*general*/
+body{
+	background-color:#FFF7D9; 
+	margin-left: 10em;
+}
+
+/*HEADER*/
+nav{
+  display:inline-block;
+  float:right;
+  margin-right: 13em;
+  margin-top: 5em
+}
+.encabezado{
+  display:inline-block;
+  margin-left: 2em;
+}
+.encabezado__logo{
+  display:inline-block;
+}
+
+.navegacion{
+	display: inline-block;
+	padding: .5em;
+}
+
+.separador__barra__header{
+	width: 59em;
+	height: 5px;
+	margin-left: 2em;
+	margin-right: 5em;
+}
+
+
+.articulo__foto{
+	background-image: url("sanfrancisco.jpg");
+	background-repeat: no-repeat;
+	width: 59em;
+	height: 13em;
+	margin-left: 2em;
+	margin-right: 5em;
+	border-radius: 5px;
+	position: relative;
+}
+
+.articulo__link{
+	display: inline;
+	background-color: rgba(33, 26, 26, 0.8);
+	color:white;
+	padding: 1em;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.articulo__boton__texto{
+	display: inline-block;
+	background-color: rgba(33, 26, 26, 0.8);
+	color:white;
+	padding: 1em;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+
+/*CONTENIDO*/
+main{
+  float: left;
+  width: 30em;
+  margin-left: 2em;
+  margin-top: 5em;
+}
+aside{
+  background-color:#706B64;
+	color:white; 
+  float: right;
+  margin-right: 13em;
+  width:20em;
+  text-align: center;
+  margin-bottom: 5em;
+  margin-top: 5em;
+  border-radius: 5px;
+}
+.flecha{
+	float: right;
+	margin-top: 5em;
+	margin-right: 300px;
+}
+
+.perfil__foto{
+	border:1px solid black;
+}
+
+
+footer{
+  clear: both;
+}
+.separador__barra__footer{
+	width: 59em;
+	height: 5px;
+	padding: 0;
+	margin-bottom: -.5em;
+	margin-left: 2em;
+	margin-right: 5em;
+}
+.separador__top{
+	margin-left: 30em;
+	padding: 0;
+
+}
+.ultimostwits,.fotos,.amigos{
+	display: inline-block;
+	width: 19em;
+	height: 150px;
+	vertical-align:middle;
+	margin-left: 10px;
+}
+.ultimostwits{
+	margin-left: 2em;
+}
+.lista1,.lista2{
+	display: inline-block;
+	color: red;
+}
+.aboutme__fotos{
+	border:1px solid black;
+}
