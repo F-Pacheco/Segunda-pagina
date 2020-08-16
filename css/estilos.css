@@ -31,44 +31,69 @@ nav{
 	margin-right: 5em;
 }
 
-
-.articulo__foto{
-	background-image: url("sanfrancisco.jpg");
-	background-repeat: no-repeat;
+.foto__fondo{
 	width: 59em;
 	height: 13em;
 	margin-left: 2em;
 	margin-right: 5em;
 	border-radius: 5px;
-	position: relative;
+	margin-bottom: -4em;
 }
 
-.articulo__link{
-	display: inline;
-	background-color: rgba(33, 26, 26, 0.8);
-	color:white;
-	padding: 1em;
-	position: absolute;
-	bottom: 0;
-	left: 0;
+
+.articulo{
+	position: relative;
+	width:59em;
+	color: white;
+  	background-color:rgba(33, 26, 26, 0.8);
+  	height:3.8em;
+  	left: 2em;
+  	border-bottom-left-radius:	5px;
+  	border-bottom-right-radius: 5px;
 }
-.articulo__boton__texto{
-	display: inline-block;
-	background-color: rgba(33, 26, 26, 0.8);
-	color:white;
-	padding: 1em;
-	position: absolute;
-	bottom: 0;
-	right: 0;
+
+.articulo__texto{
+  display:inline-block;
+  position:absolute;
+  left:2em;
+  bottom:1.5em;
 }
+.articulo__boton{
+  display:inline-block;
+  position:absolute;
+  right:1em;
+  bottom:1em;
+  text-decoration: none;
+  padding: .5em;
+  color:white;
+  background: linear-gradient(to bottom, #A75B5C, #7D0B0D);
+  border-radius: 5px;
+  border:#7D0B0D 1px solid;
+}
+
+.articulo__boton__img{
+	width: .8em;
+  height:.8em;
+  vertical-align:middle;
+  border-radius:2px;
+}
+.articulo__boton:hover{
+    background:linear-gradient(to bottom, white, blue);
+    border:blue 1px solid;
+  }
+
 
 
 /*CONTENIDO*/
 main{
   float: left;
-  width: 30em;
+  width: 37em;
   margin-left: 2em;
   margin-top: 5em;
+}
+.titulo__imagen,.titulo__principal{
+	display: inline;
+	vertical-align: middle;
 }
 aside{
   background-color:#706B64;
@@ -83,8 +108,9 @@ aside{
 }
 .flecha{
 	float: right;
-	margin-top: 5em;
-	margin-right: 300px;
+	position: relative;
+	top: 2em;
+	right: 20em;
 }
 
 .perfil__foto{
@@ -120,7 +146,8 @@ footer{
 }
 .lista1,.lista2{
 	display: inline-block;
-	color: red;
+	color:  #7D0B0D;
+	list-style: url("viñeta.png") square;
 }
 .aboutme__fotos{
 	border:1px solid black;
